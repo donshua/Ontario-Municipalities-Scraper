@@ -6,7 +6,7 @@ Steps to scrape the desired data:
 
 1. Find the site where data are stored, preferably a site where data are in one fixed place. For example, data appear in the same format on every page (e.g. Wikipedia, Twitter), or site with data in a list (e.g. Amazon products list). In this case we used AMO (Association of Municipalities of Ontario) page.
 
-2. Use BeautifulSoup package in Python to scrape/parse the html content pages for useful data. See Python code (.py in /Scraper Script/) for detail
+2. Use BeautifulSoup package in Python to scrape/parse the html content pages for useful data. See Python code (`.py` in `/Scraper Script/`) for detail
 
 3. For this case: Ontario Municipalities, here are the general steps:
 
