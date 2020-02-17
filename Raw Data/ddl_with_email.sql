@@ -15,4 +15,4 @@ CREATE TABLE city(
   mayor_email VARCHAR(50) NOT NULL
 );
 
-\COPY city FROM 'data_email.csv' DELIMITER ',' CSV header;
+\COPY city FROM 'data_with_email.csv' DELIMITER ',' CSV header;

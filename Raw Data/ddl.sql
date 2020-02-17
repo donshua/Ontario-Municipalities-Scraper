@@ -13,4 +13,4 @@ CREATE TABLE city(
   mayor VARCHAR(50) NOT NULL
 );
 
-\COPY city FROM 'data_new - Copy.csv' DELIMITER ',' CSV header;
+\COPY city FROM 'data_new.csv' DELIMITER ',' CSV header;
